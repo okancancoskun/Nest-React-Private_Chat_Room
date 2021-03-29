@@ -1,0 +1,4 @@
+export default {
+  token:
+    'cd4bd0d4cb5aae066a210aac32d940e0e2a095308f237669783a0c9342d48fd3fa30d712348e4d43af1ee9da0521f5bf1c957fd5f5a46f99b95250a51a571ae4',
+};
