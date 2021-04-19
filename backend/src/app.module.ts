@@ -28,7 +28,7 @@ import { AuthMiddleware } from './libs/middlewares/auth.middleware';
     CategoryModule,
     MongooseModule.forRootAsync({
       useFactory: () => ({
-        uri: 'mongodb://localhost/e-commerce',
+        uri: 'mongodb://localhost/data-base',
         useFindAndModify: false,
       }),
     }),
