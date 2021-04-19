@@ -26,6 +26,12 @@ import { AuthMiddleware } from './libs/middlewares/auth.middleware';
     RoleModule,
     PostModule,
     CategoryModule,
+    MongooseModule.forRootAsync({
+      useFactory: () => ({
+        uri: 'mongodb://localhost/e-commerce',
+        useFindAndModify: false,
+      }),
+    }),
   ],
   controllers: [
     RoomController,
